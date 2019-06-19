@@ -1,0 +1,36 @@
+.top-header {
+    box-shadow: 0 5px 12px rgba(0, 0, 0, .25);
+    padding: 15px 20px;
+    margin: 0 -15px;
+    text-align: center;
+}
+
+.main-section {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin: 20px auto;
+}
+
+.main-section .items-wrapper {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.main-section .items-wrapper .card-wrapper {
+    flex: 0 0 20%;
+    padding: 15px;
+}
+
+.navbar {
+    background: #4caf50;
+    display: flex;
+    justify-content: center;
+}
+
+.btn-add {
+    border-radius: 20px;
+    min-width: 150px;
+    margin-top: -50px;
+}
